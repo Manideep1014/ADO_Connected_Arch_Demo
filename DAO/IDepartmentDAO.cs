@@ -10,10 +10,10 @@ namespace ADO_Connected_Arch_Demo.DAO
     internal interface IDepartmentDAO
     {
          List<Department> GetAllDepartments();
-        Department GetDepartmentById(int id);
-        Department AddNewDepartment(Department department);
+        void GetDepartmentById(int id);
+        string AddNewDepartment(Department department);
         Department UpdateDepartment(Department department);
-        Department DeleteDepartment(int id);
+        string DeleteDepartment(int id);
 
     }
 }
