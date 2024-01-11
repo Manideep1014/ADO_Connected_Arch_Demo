@@ -10,5 +10,7 @@ namespace ADO_Connected_Arch_Demo.Entity
     {
         public int EmployeeId { get; set; }
         public string EmployeeName { get; set; }
+        public string Gender { get; set; }
+        public string JobLocation { get; set; }
     }
 }
